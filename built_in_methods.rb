@@ -8,10 +8,10 @@
 # The return value is "hello world"
 "Hello World".downcase
 
-
+# the include function is called on the string, hello world include function, except one argument, which is the word that you were searching for inside the string dot this returns of Boolean value based on the predicate satisfaction. 
 "Hello World".include?("Hello")
 
-
+# the end_with function is called on the string, hello world.the end with function excepts one argument, and returns a Boolean value based on the predicate, if the string ends with the term.
 "Hello World".end_with?("Hello")
 
 
